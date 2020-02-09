@@ -1,5 +1,5 @@
 # Lightweight-Face-Detection-Playground
-Implentment several single stage anchor-free lightweight face detetors.
+Implentment several single stage lightweight face detetors.
 
 ## Anchor-Base methods
 - [ ] FaceBoxes
