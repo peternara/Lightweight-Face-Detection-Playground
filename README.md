@@ -7,7 +7,7 @@ Implentment several single stage lightweight face detetors.
 
 ## Anchor-Free methods
 - [ ] FCOS
-- [ ] CenterNet
+- [x] CenterNet
 
 ## Reference
 ```
