@@ -9,6 +9,15 @@ Implentment several single stage lightweight face detetors.
 - [ ] FCOS
 - [x] CenterNet
 
+## WIDER FACE results
+|      | params|flops(640X640|
+|:----:|:-----:|:-----:|
+|fcosface  |   |     |
+|centerface|146.68k|299.31MMac|
+
+## demo:
+![1_Handshaking_Handshaking_1_579_bbox](images/1_Handshaking_Handshaking_1_579_bbox.jpg)
+
 ## Reference
 ```
 @inproceedings{zhang2017faceboxes,
