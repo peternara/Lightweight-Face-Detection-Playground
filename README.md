@@ -10,13 +10,18 @@ Implentment several single stage lightweight face detetors.
 - [x] CenterNet
 
 ## WIDER FACE results
-|      | params|flops(640X640|
-|:----:|:-----:|:-----:|
-|fcosface  |   |     |
-|centerface|146.68k|299.31MMac|
+|      | Params|Flops(640X640)|Easy|Medium|Hard|
+|:----:|:-----:|:-----:|:----:|:-----:|:-----:|
+|fcosface  |   |     | | | |
+|centerface|146.68k|299.31MMac|| | |
 
-## demo:
+## Demo
 ![1_Handshaking_Handshaking_1_579_bbox](images/1_Handshaking_Handshaking_1_579_bbox.jpg)
+
+## How to play
+```
+python models/centerface.py
+```
 
 ## Reference
 ```
