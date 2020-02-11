@@ -314,8 +314,8 @@ if __name__=="__main__":
     net = add_flops_counting_methods(net)
     net.start_flops_count()
     feat = net(img)
-    faceboxes_flops = net.compute_average_flops_cost()
-    print('Net Flops:  {}'.format(flops_to_string(faceboxes_flops)))
+    flops = net.compute_average_flops_cost()
+    print('Net Flops:  {}'.format(flops_to_string(flops)))
     print('Net Params: ' + get_model_parameters_number(net))
     # load model
     net = load_model(net, trained_model)
