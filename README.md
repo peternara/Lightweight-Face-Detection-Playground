@@ -19,6 +19,19 @@ Implentment several single stage lightweight face detetors.
 ![1_Handshaking_Handshaking_1_579_bbox](images/1_Handshaking_Handshaking_1_579_bbox.jpg)
 
 ## How to play
+1. Clone this repository. We will call the cloned directory as `$ROOT`.
+```
+git clone https://github.com/yongtaoge/Lightweight-Face-Detection-Playground.git
+```
+2. Config the running environment.
+```
+pip install requirements.txt
+```
+3. Compile the nms module.
+```
+sh compile.sh
+```
+4. Run demo.
 ```
 python models/centerface.py
 ```
